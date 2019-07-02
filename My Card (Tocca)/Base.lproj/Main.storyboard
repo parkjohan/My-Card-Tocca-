@@ -86,9 +86,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7HL-Ev-pbS" customClass="RoundedShadowButton" customModule="My_Card__Tocca_" customModuleProvider="target">
                                 <rect key="frame" x="87" y="708" width="75" height="75"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="75" id="S5b-qu-k5G"/>
-                                </constraints>
                                 <state key="normal" image="Plus">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -96,9 +93,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tRS-up-a0B" customClass="RoundedShadowButton" customModule="My_Card__Tocca_" customModuleProvider="target">
                                 <rect key="frame" x="252" y="708" width="75" height="75"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="75" id="IeO-pF-QBu"/>
-                                </constraints>
                                 <state key="normal" image="Share"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SCAN QR/BC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Syk-d5-g0x">
@@ -131,6 +125,7 @@
                             <constraint firstItem="ad8-vm-oWG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-44" id="Egr-j2-xzw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="POw-P5-ZCo" secondAttribute="trailing" constant="97" id="H6Z-PI-aab"/>
                             <constraint firstItem="tRS-up-a0B" firstAttribute="baseline" secondItem="7HL-Ev-pbS" secondAttribute="baseline" id="JX3-uO-CAM"/>
+                            <constraint firstItem="tRS-up-a0B" firstAttribute="width" secondItem="7HL-Ev-pbS" secondAttribute="width" id="KHX-HG-rzP"/>
                             <constraint firstItem="POw-P5-ZCo" firstAttribute="baseline" secondItem="Syk-d5-g0x" secondAttribute="baseline" id="MB4-GC-ZJG"/>
                             <constraint firstItem="ekz-uI-elt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XY8-ft-OVN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7HL-Ev-pbS" secondAttribute="bottom" constant="30" id="YR6-aw-0Cc"/>
