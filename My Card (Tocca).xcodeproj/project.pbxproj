@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		98AF962522CB0F1300484FFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AF962422CB0F1300484FFA /* AppDelegate.swift */; };
-		98AF962722CB0F1300484FFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AF962622CB0F1300484FFA /* ViewController.swift */; };
+		98AF962722CB0F1300484FFA /* MyCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AF962622CB0F1300484FFA /* MyCardViewController.swift */; };
 		98AF962A22CB0F1300484FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98AF962822CB0F1300484FFA /* Main.storyboard */; };
 		98AF962C22CB0F1600484FFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98AF962B22CB0F1600484FFA /* Assets.xcassets */; };
 		98AF962F22CB0F1600484FFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98AF962D22CB0F1600484FFA /* LaunchScreen.storyboard */; };
+		98AF963722CB0F7B00484FFA /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AF963622CB0F7B00484FFA /* ContactsViewController.swift */; };
+		98AF963922CB0F8700484FFA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AF963822CB0F8700484FFA /* SettingsViewController.swift */; };
+		98AF963B22CB137C00484FFA /* RoundedShadowCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AF963A22CB137C00484FFA /* RoundedShadowCardView.swift */; };
+		98AF963F22CB1D0E00484FFA /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AF963E22CB1D0E00484FFA /* RoundedShadowButton.swift */; };
+		98AF964322CBBF2C00484FFA /* RoundedShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AF964222CBBF2C00484FFA /* RoundedShadowImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		98AF962122CB0F1300484FFA /* My Card (Tocca).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Card (Tocca).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98AF962422CB0F1300484FFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		98AF962622CB0F1300484FFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98AF962622CB0F1300484FFA /* MyCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardViewController.swift; sourceTree = "<group>"; };
 		98AF962922CB0F1300484FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98AF962B22CB0F1600484FFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98AF962E22CB0F1600484FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98AF963022CB0F1600484FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98AF963622CB0F7B00484FFA /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		98AF963822CB0F8700484FFA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		98AF963A22CB137C00484FFA /* RoundedShadowCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedShadowCardView.swift; sourceTree = "<group>"; };
+		98AF963E22CB1D0E00484FFA /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		98AF964222CBBF2C00484FFA /* RoundedShadowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				98AF962422CB0F1300484FFA /* AppDelegate.swift */,
-				98AF962622CB0F1300484FFA /* ViewController.swift */,
+				98AF963622CB0F7B00484FFA /* ContactsViewController.swift */,
+				98AF962622CB0F1300484FFA /* MyCardViewController.swift */,
+				98AF963822CB0F8700484FFA /* SettingsViewController.swift */,
+				98AF963A22CB137C00484FFA /* RoundedShadowCardView.swift */,
+				98AF964222CBBF2C00484FFA /* RoundedShadowImageView.swift */,
+				98AF963E22CB1D0E00484FFA /* RoundedShadowButton.swift */,
 				98AF962822CB0F1300484FFA /* Main.storyboard */,
 				98AF962B22CB0F1600484FFA /* Assets.xcassets */,
 				98AF962D22CB0F1600484FFA /* LaunchScreen.storyboard */,
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98AF962722CB0F1300484FFA /* ViewController.swift in Sources */,
+				98AF962722CB0F1300484FFA /* MyCardViewController.swift in Sources */,
+				98AF963B22CB137C00484FFA /* RoundedShadowCardView.swift in Sources */,
 				98AF962522CB0F1300484FFA /* AppDelegate.swift in Sources */,
+				98AF963722CB0F7B00484FFA /* ContactsViewController.swift in Sources */,
+				98AF964322CBBF2C00484FFA /* RoundedShadowImageView.swift in Sources */,
+				98AF963922CB0F8700484FFA /* SettingsViewController.swift in Sources */,
+				98AF963F22CB1D0E00484FFA /* RoundedShadowButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
